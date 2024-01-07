@@ -1,0 +1,28 @@
+.What_We_Do2 {
+  height: 85vh;
+  padding: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ded0b6;
+  background-image: url("./../../../assets/images/white-brick-wall.png");
+  h2 {
+    color: black;
+    font-size: 4rem;
+  }
+
+  hr {
+    width: 10%;
+    margin-top: 2rem;
+    border: 0.1rem solid #607274;
+  }
+}
+
+.What_We_Do2 .Inner_Div {
+  margin-top: 7rem;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 15rem 15rem;
+  gap: 5rem;
+}

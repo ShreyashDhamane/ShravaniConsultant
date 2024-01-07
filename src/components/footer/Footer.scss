@@ -1,0 +1,110 @@
+.Footer {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 2rem;
+  padding: 10rem 20rem;
+  color: #faeed1;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+    h4 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .Column {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 2rem;
+
+    p {
+      font-size: 1.8rem;
+      padding-right: 5rem;
+      color: #ded0b6;
+    }
+
+    a {
+      font-size: 1.8rem;
+      padding-right: 5rem;
+      color: #ded0b6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: white;
+      text-decoration: underline;
+    }
+  }
+
+  .Column2 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+    h4 {
+      margin-bottom: 3rem;
+    }
+
+    a {
+      font-size: 1.8rem;
+      margin-bottom: 0.8rem;
+      color: #ded0b6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: white;
+      text-decoration: underline;
+    }
+  }
+
+  .Column3 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: white;
+    padding-top: 5rem;
+
+    p {
+      font-size: 1.8rem;
+      margin-bottom: 0.8rem;
+      color: #ded0b6;
+    }
+
+    a {
+      font-size: 1.8rem;
+      margin-bottom: 0.8rem;
+      color: #ded0b6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: white;
+      text-decoration: underline;
+    }
+
+    .Social_Media {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 2rem;
+      padding-top: 2rem;
+      img {
+        width: 5rem;
+        height: 5rem;
+      }
+
+      img:hover {
+        cursor: pointer;
+        background-color: #607274;
+      }
+    }
+  }
+}

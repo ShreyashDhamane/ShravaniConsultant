@@ -1,0 +1,53 @@
+@import "/public/assets/css/variables";
+
+.Intro {
+  background-image: url("../../../../src/assets/images/homepage_2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-left: 10rem;
+}
+
+.Inner_Div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: calc(100vh - $navbar-height);
+}
+
+.Inner_Div h1 {
+  font-size: 9rem;
+  color: #faeed1;
+  margin-bottom: 3rem;
+}
+.Inner_Div h1 span {
+  color: white;
+}
+.Inner_Div p {
+  font-size: 3rem;
+  color: #faeed1;
+  margin-bottom: 2.5rem;
+}
+.Inner_Div button {
+  width: 20%;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+}
+
+.Inner_Div button:hover {
+  background-color: transparent;
+  color: white;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}

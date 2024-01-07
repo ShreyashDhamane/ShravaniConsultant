@@ -1,0 +1,43 @@
+@import "/public/assets/css/variables";
+
+.List_Item {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+.Link {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #faeed1;
+  // color: #b2a59b;
+  transition: 0.3s ease-in-out;
+}
+
+.Link:hover {
+  color: #607274;
+}
+
+.active {
+  color: white;
+  padding-bottom: 0.5rem;
+  border-bottom: white solid 2px;
+  // color: #607274;
+}
+
+@media (min-width: $break-point-tab-sm) and (max-width: 806px) {
+  .List_Item {
+    padding: 0px 4px;
+  }
+
+  .Link {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 807px) and (max-width: $break-point-laptop) {
+  .List_Item {
+    padding: 0px 5px;
+  }
+}

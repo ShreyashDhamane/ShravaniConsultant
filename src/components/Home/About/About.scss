@@ -1,0 +1,39 @@
+.About_Section {
+  padding: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #faeed1;
+  background-image: url("./../../../assets/images/white-brick-wall.png");
+
+  img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    border: 5px solid #607274;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  h4 {
+    font-size: 2.5rem;
+    color: #607274;
+    margin-bottom: 1rem;
+  }
+
+  hr {
+    width: 10%;
+    margin-top: 1rem;
+    border: 0.1rem solid #607274;
+    margin-bottom: 4rem;
+  }
+
+  p {
+    padding: 0 25rem;
+    font-size: 1.75rem;
+    text-align: center;
+  }
+}

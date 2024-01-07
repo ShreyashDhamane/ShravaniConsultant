@@ -1,0 +1,30 @@
+.Card4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    width: 30rem;
+    height: 30rem;
+    margin-bottom: 2rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+    color: #607274;
+  }
+}
+
+.Card4:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s;
+
+  img {
+    border-radius: 0.5rem;
+  }
+
+  h3 {
+    color: black;
+  }
+}

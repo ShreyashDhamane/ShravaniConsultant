@@ -1,0 +1,56 @@
+@import "/public/assets/css/variables";
+
+.What_We_Do {
+  background-color: #faeed1;
+  height: 75vh;
+  width: 100%;
+  padding: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-image: url("./../../../assets/images/white-brick-wall.png");
+}
+
+.What_We_Do h2 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: black;
+  text-align: left;
+}
+
+.What_We_Do .Inner_Div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 3rem;
+}
+
+.What_We_Do .Inner_Div .ID_Left {
+  flex: 1;
+  padding-right: 5rem;
+}
+
+.What_We_Do .Inner_Div .ID_Left p {
+  font-size: 2rem;
+  color: #607274;
+}
+
+.What_We_Do .Inner_Div .ID_Left button {
+  width: 35%;
+  background-color: #607274;
+  color: white;
+}
+
+.What_We_Do .Inner_Div .ID_Left button:hover {
+  background-color: white;
+  color: #607274;
+}
+
+.What_We_Do .Inner_Div .ID_Right {
+  flex: 1.7;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 12rem 12rem;
+  gap: 2rem;
+}
