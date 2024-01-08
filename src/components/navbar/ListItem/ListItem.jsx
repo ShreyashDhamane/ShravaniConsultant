@@ -1,10 +1,12 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import "./ListItem.scss";
 
 const ListItem = (props) => {
+  const location = useLocation();
+
   return (
-    <li className="List_Item">
+    <li className={location.pathname === "/" ? "List_Item" : "List_Item2"}>
       <NavLink className="Link" to={props.link}>
         {props.name}
       </NavLink>

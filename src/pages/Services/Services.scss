@@ -1,0 +1,50 @@
+.Services {
+  background-image: url("./../../assets/images/white-brick-wall.png");
+  padding: 15rem 20rem 0;
+
+  h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: black;
+  }
+
+  h3 {
+    font-size: 3rem;
+    color: #9a3b3b;
+  }
+
+  p {
+    font-size: 2rem;
+    margin: 1.5rem 0;
+  }
+
+  .Commercial {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+    .Feature_Heading {
+      margin-top: 3rem;
+    }
+
+    .Type_Of_Work {
+      font-weight: 700;
+    }
+
+    .Features_Div {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 1rem;
+      margin-bottom: 5rem;
+    }
+  }
+}
+
+.Services2 {
+  padding: 10rem 20rem 0;
+  background-color: #faeed1;
+}
+
+.Services3 {
+  padding: 10rem 20rem 0;
+}

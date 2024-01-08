@@ -1,0 +1,22 @@
+.Card_About_Us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  h3 {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+    text-align: center;
+    color: #607274;
+  }
+}

@@ -12,12 +12,31 @@
   width: 100%;
 }
 
+.Navbar2 {
+  display: flex;
+  // background-color: #faeed1;
+  background-color: transparent;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 10rem;
+  position: absolute;
+  top: 0;
+  height: 60px;
+  width: 100%;
+
+  .Navbar_Logo {
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+  }
+}
+
 .Navbar_Logo {
   font-size: 2.8rem;
   font-weight: 700;
   text-decoration: none;
   color: white;
-  // color: #607274;
 }
 
 .Navbar_Items {

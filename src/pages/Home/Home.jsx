@@ -7,7 +7,6 @@ import "./Home.scss";
 import Philosophy from "../../components/Home/Philosophy/Philosophy";
 import About from "../../components/Home/About/About";
 import ContactUs from "../../components/Home/ContactUs/ContactUs";
-import Footer from "../../components/footer/Footer";
 
 const Home = () => {
   return (
@@ -19,7 +18,6 @@ const Home = () => {
       <Projects />
       <About />
       <ContactUs />
-      <Footer />
     </div>
   );
 };

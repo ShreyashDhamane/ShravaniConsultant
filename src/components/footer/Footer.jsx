@@ -29,7 +29,9 @@ const Footer = () => {
       <div className="Column3">
         <p>© 2023 Shravani Consultant.</p>
         <p>All Rights Reserved.</p>
-        <a href="/privacy-policy">Privacy Policy</a>
+        <a href="https://www.termsfeed.com/live/5d10959a-770b-448b-84e3-578c4058b694">
+          Privacy Policy
+        </a>
         <div className="Social_Media">
           <a
             href="https://www.linkedin.com/in/bahubali-dhamane-3420aa40/"

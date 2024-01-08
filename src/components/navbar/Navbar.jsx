@@ -1,13 +1,14 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import ListItem from "./ListItem/ListItem";
 import "./Navbar.scss";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
 
   return (
-    <nav className="Navbar">
+    <nav className={location.pathname === "/" ? "Navbar" : "Navbar2"}>
       <Link className="Navbar_Logo" to="/">
         ShravaniConsultant
       </Link>

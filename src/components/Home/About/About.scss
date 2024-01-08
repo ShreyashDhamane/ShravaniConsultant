@@ -7,11 +7,12 @@
   background-image: url("./../../../assets/images/white-brick-wall.png");
 
   img {
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     border-radius: 50%;
     margin-bottom: 2rem;
     border: 5px solid #607274;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
 
   h3 {
