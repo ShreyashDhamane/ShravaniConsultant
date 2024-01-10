@@ -10,6 +10,14 @@
   h2 {
     font-size: 4rem;
     color: black;
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: all 0.5s ease-in-out;
+
+    &.heading-animation {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   hr {
@@ -17,6 +25,13 @@
     margin-top: 1rem;
     border: 0.1rem solid #607274;
     margin-bottom: 4rem;
+    opacity: 0;
+    transform: translateY(-100px);
+
+    &.hr-animation {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   .Inner_Div3 {
@@ -25,6 +40,12 @@
     flex-direction: column;
     align-items: center;
     width: 80%;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+
+    &.div-animation {
+      opacity: 1;
+    }
 
     img:hover {
       cursor: pointer;

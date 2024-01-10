@@ -1,5 +1,16 @@
 @import "/public/assets/css/variables";
 
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(50vh) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
 .Intro {
   background-image: url("../../../../src/assets/images/homepage_2.jpg");
   background-size: cover;
@@ -14,6 +25,7 @@
   justify-content: center;
   width: 60%;
   height: calc(100vh - $navbar-height);
+  animation: fade-up 0.7s 0.4s;
 }
 
 .Inner_Div h1 {

@@ -1,5 +1,16 @@
 @import "/public/assets/css/variables";
 
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
 .Navbar {
   display: flex;
   background-color: transparent;
@@ -10,6 +21,7 @@
   top: 0;
   height: 60px;
   width: 100%;
+  animation: fade-down 0.7s 0.4s backwards;
 }
 
 .Navbar2 {

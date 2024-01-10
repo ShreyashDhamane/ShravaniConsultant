@@ -17,6 +17,14 @@
   margin-bottom: 2rem;
   color: black;
   text-align: left;
+  opacity: 0;
+  transform: translateY(-100px);
+  transition: all 0.5s ease-in-out;
+
+  &.heading-animation {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .What_We_Do .Inner_Div {
@@ -29,6 +37,14 @@
 .What_We_Do .Inner_Div .ID_Left {
   flex: 1;
   padding-right: 5rem;
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 0.5s ease-in-out;
+
+  &.div-left-animation {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .What_We_Do .Inner_Div .ID_Left p {
@@ -54,4 +70,12 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 12rem 12rem;
   gap: 2rem;
+  opacity: 0;
+  transform: translateX(100px);
+  transition: all 0.5s ease-in-out;
+
+  &.div-right-animation {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }

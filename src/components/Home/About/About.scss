@@ -5,6 +5,14 @@
   align-items: center;
   background-color: #faeed1;
   background-image: url("./../../../assets/images/white-brick-wall.png");
+  opacity: 0;
+  // transform: translateY(100px);
+  transition: all 1s ease-in-out;
+
+  &.about-animation {
+    opacity: 1;
+    // transform: translateY(0);
+  }
 
   img {
     width: 20rem;

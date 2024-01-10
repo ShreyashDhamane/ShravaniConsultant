@@ -1,16 +1,76 @@
-import React from "react";
-import "./Philosophy.scss";
+import React, { useRef } from "react";
 import Card from "./Card/Card";
 import Commitment from "./../../../assets/images/commitment.png";
 import Excellence from "./../../../assets/images/quality.png";
 import Innovation from "./../../../assets/images/bulb.png";
+import "./Philosophy.scss";
 
 const Philosophy = () => {
+  const heading = useRef(null);
+  const hr = useRef(null);
+  const div = useRef(null);
+
+  const headingObserverCallback = (entries, headingObserver) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("heading-animation");
+        headingObserver.unobserve(entry.target);
+      }
+    });
+  };
+  const hrObserverCallback = (entries, hrObserver) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("hr-animation");
+        hrObserver.unobserve(entry.target);
+      }
+    });
+  };
+  const divObserverCallback = (entries, divObserver) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("div-animation");
+        divObserver.unobserve(entry.target);
+      }
+    });
+  };
+
+  const headingObserverOptions = {
+    rootMargin: "0px 0px -300px 0px",
+    threshold: 1,
+  };
+  const hrObserverOptions = {
+    rootMargin: "0px 0px -300px 0px",
+    threshold: 1,
+  };
+  const divObserverOptions = {
+    threshold: 0.5,
+  };
+
+  const headingObserver = new IntersectionObserver(
+    headingObserverCallback,
+    headingObserverOptions
+  );
+  const hrObserver = new IntersectionObserver(
+    hrObserverCallback,
+    hrObserverOptions
+  );
+  const divObserver = new IntersectionObserver(
+    divObserverCallback,
+    divObserverOptions
+  );
+
+  React.useEffect(() => {
+    headingObserver.observe(heading.current);
+    divObserver.observe(div.current);
+    hrObserver.observe(hr.current);
+  }, []);
+
   return (
     <div className="Philosophy">
-      <h2>Our Philosophy</h2>
-      <hr />
-      <div className="Inner_div">
+      <h2 ref={heading}>Our Philosophy</h2>
+      <hr ref={hr} />
+      <div className="Inner_div" ref={div}>
         <Card
           src={Commitment}
           heading="Commitment"

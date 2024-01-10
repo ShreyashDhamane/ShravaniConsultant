@@ -8,6 +8,10 @@ import { useNavigate } from "react-router-dom";
 const Projects = () => {
   const navigate = useNavigate();
   const circle = useRef(null);
+  const heading = useRef(null);
+  const hr = useRef(null);
+  const div = useRef(null);
+
   const onMouseMove = (e) => {
     const containerRect = circle.current.parentElement.getBoundingClientRect();
     const offsetX = e.clientX - containerRect.left - 75;
@@ -27,11 +31,67 @@ const Projects = () => {
     navigate("/projects");
   };
 
+  const headingObserverCallback = (entries, headingObserver) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("heading-animation");
+        headingObserver.unobserve(entry.target);
+      }
+    });
+  };
+  const hrObserverCallback = (entries, hrObserver) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("hr-animation");
+        hrObserver.unobserve(entry.target);
+      }
+    });
+  };
+  const divObserverCallback = (entries, divObserver) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("div-animation");
+        divObserver.unobserve(entry.target);
+      }
+    });
+  };
+
+  const headingObserverOptions = {
+    rootMargin: "0px 0px -300px 0px",
+    threshold: 1,
+  };
+  const hrObserverOptions = {
+    rootMargin: "0px 0px -300px 0px",
+    threshold: 1,
+  };
+  const divObserverOptions = {
+    threshold: 0.5,
+  };
+
+  const headingObserver = new IntersectionObserver(
+    headingObserverCallback,
+    headingObserverOptions
+  );
+  const hrObserver = new IntersectionObserver(
+    hrObserverCallback,
+    hrObserverOptions
+  );
+  const divObserver = new IntersectionObserver(
+    divObserverCallback,
+    divObserverOptions
+  );
+
+  React.useEffect(() => {
+    headingObserver.observe(heading.current);
+    divObserver.observe(div.current);
+    hrObserver.observe(hr.current);
+  }, []);
+
   return (
     <div className="Projects">
-      <h2>Our Projects</h2>
-      <hr />
-      <div className="Inner_Div3" onClick={handleClick}>
+      <h2 ref={heading}>Our Projects</h2>
+      <hr ref={hr} />
+      <div className="Inner_Div3" onClick={handleClick} ref={div}>
         <div
           className="Image_Gallery_Row1"
           onMouseMove={onMouseMove}

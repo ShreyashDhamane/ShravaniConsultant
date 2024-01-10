@@ -1,10 +1,34 @@
-import React from "react";
+import React, { useRef } from "react";
 import Founder from "./../../../assets/images/founder.png";
 import "./About.scss";
 
 const About = () => {
+  const div = useRef(null);
+
+  const divObserverCallback = (entries, divObserver) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("about-animation");
+        divObserver.unobserve(entry.target);
+      }
+    });
+  };
+
+  const divObserverOptions = {
+    threshold: 0.3,
+  };
+
+  const divObserver = new IntersectionObserver(
+    divObserverCallback,
+    divObserverOptions
+  );
+
+  React.useEffect(() => {
+    divObserver.observe(div.current);
+  }, []);
+
   return (
-    <div className="About_Section">
+    <div className="About_Section" ref={div}>
       <img src={Founder} alt="Founder: Bahubali Dhamane" />
       <h3>Bahubali Dhamane</h3>
       <h4>Founder</h4>
