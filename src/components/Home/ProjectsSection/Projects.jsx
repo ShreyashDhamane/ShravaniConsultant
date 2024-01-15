@@ -97,17 +97,17 @@ const Projects = () => {
           onMouseMove={onMouseMove}
           onMouseLeave={onMouseLeave}
         >
-          <img src={Project1} alt="our projects"></img>
-          <img src={Project2} alt="our projects"></img>
-          <img src={Project3} alt="our projects"></img>
+          <img src={Project1} alt="Bahubali Dhamane"></img>
+          <img src={Project2} alt="Bahubali Dhamane"></img>
+          <img src={Project3} alt="Bahubali Dhamane"></img>
         </div>
         <div
           className="Image_Gallery_Row2"
           onMouseMove={onMouseMove}
           onMouseLeave={onMouseLeave}
         >
-          <img src={Project1} alt="our projects"></img>
-          <img src={Project2} alt="our projects"></img>
+          <img src={Project1} alt="Bahubali Dhamane"></img>
+          <img src={Project2} alt="Bahubali Dhamane"></img>
         </div>
         {/* <div className="Image_Gallery_Row3">
           <img src={Project3} alt="our projects"></img>
