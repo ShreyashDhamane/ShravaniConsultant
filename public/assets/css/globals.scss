@@ -4,6 +4,7 @@ html {
   scroll-behavior: smooth;
   font-size: 62.5%;
 
+  font-family: "Montserrat", sans-serif;
   /* Take rems according to this font 1rem = 10px */
   @media screen and (max-width: 2300px) {
     font-size: 70%;
@@ -32,7 +33,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
-  font-family: "Proxima", sans-serif;
+  font-family: "Roboto", sans-serif;
   background: $neutral-600;
   color: $neutral-000;
   min-height: 100vh;
@@ -57,4 +58,5 @@ body {
   display: flex;
   flex-direction: column;
   max-height: max-content;
+  font-family: "Roboto", sans-serif;
 }

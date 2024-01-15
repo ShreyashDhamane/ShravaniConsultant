@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className={location.pathname === "/" ? "Navbar" : "Navbar2"}>
       <Link className="Navbar_Logo" to="/">
-        ShravaniConsultant
+        Shravani Consultant
       </Link>
       <ul className={`Navbar_Items${menuOpen ? " open" : ""}`}>
         <ListItem name="Home" link="/" />

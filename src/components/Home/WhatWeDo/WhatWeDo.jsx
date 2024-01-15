@@ -88,10 +88,10 @@ const WhatWeDo = () => {
           </button>
         </div>
         <div className="ID_Right" ref={divRight}>
-          <Card heading="75K+" description="Completed Projects" />
-          <Card heading="100+" description="Years Of Experience" />
-          <Card heading="28" description="Ongoing Projects" />
-          <Card heading="15" description="International Projects" />
+          <Card heading="1K+" description="Completed Projects" />
+          <Card heading="25+" description="Years Of Experience" />
+          <Card heading="100+" description="Ongoing Projects" />
+          <Card heading="20+" description="International Projects" />
         </div>
       </div>
     </div>

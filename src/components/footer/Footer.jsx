@@ -8,8 +8,8 @@ const Footer = () => {
       <div className="Column">
         <h4>Contact Us</h4>
         <p>
-          203 Elecon Chamber, Near Sakinaka Telephone Exchange, Kurla Andheri
-          Road, Andheri, (E) Mumbai – 400 072
+          Neighborhood Shopping Complex, F-7, Ahilya Gokul Patil Rd, Vinu Veena
+          CHS, Sector 4, Nerul, Navi Mumbai, Maharashtra - 400706
         </p>
         <p>
           +91 – 9820610943 <br />

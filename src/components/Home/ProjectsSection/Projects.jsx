@@ -1,7 +1,9 @@
 import React, { useRef } from "react";
-import Project1 from "./../../../assets/images/project1.png";
-import Project2 from "./../../../assets/images/project2.jpg";
-import Project3 from "./../../../assets/images/project3.jpg";
+import Project1 from "./../../../assets/images/buildings/Picture19.jpg";
+import Project2 from "./../../../assets/images/buildings/Picture14.jpg";
+import Project3 from "./../../../assets/images/buildings/Picture6.jpg";
+import Project4 from "./../../../assets/images/buildings/Picture1.jpg";
+import Project5 from "./../../../assets/images/buildings/Picture24.jpg";
 import "./Projects.scss";
 import { useNavigate } from "react-router-dom";
 
@@ -106,8 +108,8 @@ const Projects = () => {
           onMouseMove={onMouseMove}
           onMouseLeave={onMouseLeave}
         >
-          <img src={Project1} alt="Bahubali Dhamane"></img>
-          <img src={Project2} alt="Bahubali Dhamane"></img>
+          <img src={Project4} alt="Bahubali Dhamane"></img>
+          <img src={Project5} alt="Bahubali Dhamane"></img>
         </div>
         {/* <div className="Image_Gallery_Row3">
           <img src={Project3} alt="our projects"></img>
