@@ -30,88 +30,327 @@ const Projects = () => {
   return (
     <div className="Projects_Page">
       <div className="Gallery_Container">
-        <div className="big">
+        <div className="wide5tall2">
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
                 <img src={Project1} alt="Avatar" />
               </div>
               <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
+                <h1>International Cruz Terminals</h1>
+                {/* <p>Architect & Engineer</p> */}
+                {/* <p>ICT</p> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="tall4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project4} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>Kolekayan</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="wide2tall3">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project20} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>20</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="tall3">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project3} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>Magestic Villa</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="big3">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project24} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>24</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
               </div>
             </div>
           </div>
         </div>
         <div className="big">
-          <img src={Project1} alt="Projects" />
-        </div>
-        <div className="tall">
-          <img src={Project4} alt="Projects" />
-        </div>
-        <div className="big">
-          <img src={Project20} alt="Projects" />
-        </div>
-        <div className="tall">
-          <img src={Project3} alt="Projects" />
-        </div>
-        <div>
-          <img src={Project24} alt="Projects" />
-        </div>
-        <div>
-          <img src={Project25} alt="Projects" />
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project25} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>25</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
         </div>
         <div className="big">
-          <img src={Project19} alt="Projects" />
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project19} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>19</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="tall">
-          <img src={Project5} alt="Projects" />
+        <div className="tall3">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project5} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>Shree Samarth Heights</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
         </div>
         <div className="big">
-          <img src={Project7} alt="Projects" />
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project7} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>7</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
         </div>
         <div className="big">
-          <img src={Project23} alt="Projects" />
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project23} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>Muktistar</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
         </div>
         <div className="big">
-          <img src={Project9} alt="Projects" />
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project9} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>9</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
         </div>
         <div className="tall">
-          <img src={Project2} alt="Projects" />
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project2} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>Grand Arena</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
         </div>
         <div className="tall">
-          <img src={Project6} alt="Projects" />
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project6} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>6</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
         </div>
         <div className="tall">
-          <img src={Project8} alt="Projects" />
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project8} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>8</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
         </div>
         <div className="tall">
-          <img src={Project10} alt="Projects" />
-        </div>
-        <div>
-          <img src={Project11} alt="Projects" />
-        </div>
-        <div className="tall">
-          <img src={Project12} alt="Projects" />
-        </div>
-        <div className="tall">
-          <img src={Project13} alt="Projects" />
-        </div>
-        <div className="tall">
-          <img src={Project14} alt="Projects" />
-        </div>
-        <div className="tall">
-          <img src={Project15} alt="Projects" />
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project10} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>10</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
         </div>
         <div className="tall">
-          <img src={Project16} alt="Projects" />
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project11} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>11</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
         </div>
         <div className="tall">
-          <img src={Project17} alt="Projects" />
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project12} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>Madhukar Deshmukh Tower</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
         </div>
         <div className="tall">
-          <img src={Project18} alt="Projects" />
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project13} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>13</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="tall">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project14} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>shradha Vardaan</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="tall">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project15} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>15</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="tall">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project16} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>16</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="big">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project17} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>17</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="tall">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src={Project18} alt="Avatar" />
+              </div>
+              <div class="flip-card-back">
+                <h1>Shanti Sharan Heights</h1>
+                {/* <p>Architect & Engineer</p>
+                <p>We love that guy</p> */}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

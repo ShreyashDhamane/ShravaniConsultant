@@ -11,7 +11,7 @@ const Services = () => {
           <h2>Commercial</h2>
           <h3 className="Feature_Heading">Structural Engineering</h3>
           <p>
-            Florida Engineering delivers first class structural engineering
+            Shravani Consultant delivers first class structural engineering
             services on projects of all sizes.
           </p>
           <div className="Features_Div">
@@ -45,7 +45,7 @@ const Services = () => {
             Mechanical, Electrical And Plumbing (MEP)
           </h3>
           <p>
-            Florida Engineering delivers first class structural engineering
+            Shravani Consultant delivers first class structural engineering
             services on projects of all sizes.
           </p>
           <div className="Features_Div">
@@ -147,7 +147,7 @@ const Services = () => {
           <h2>Residential</h2>
           <h3 className="Feature_Heading">Structural Engineering</h3>
           <p>
-            Florida Engineering delivers first class structural engineering
+            Shravani Consultant delivers first class structural engineering
             services on projects of all sizes.
           </p>
           <div className="Features_Div">
@@ -181,7 +181,7 @@ const Services = () => {
             Mechanical, Electrical And Plumbing (MEP)
           </h3>
           <p>
-            Florida Engineering delivers first class structural engineering
+            Shravani Consultant delivers first class structural engineering
             services on projects of all sizes.
           </p>
           <div className="Features_Div">
@@ -283,7 +283,7 @@ const Services = () => {
           <h2>Aluminium, Steel & Other Engineering</h2>
           <h3 className="Feature_Heading">Structural Engineering</h3>
           <p>
-            Florida Engineering has a dedicated, full-service Aluminum
+            Shravai Consultant has a dedicated, full-service Aluminum
             Engineering department. Providing hard copies & Efiles, your plans
             will be engineered in accordance with the latest edition of the FBC
             and municipal ordinances for a simple permitting process. We can

@@ -1,5 +1,5 @@
 import React from "react";
-import CompanyImage from "./../../assets/images/company.png";
+import CompanyImage from "./../../assets/images/company_logo.png";
 import FounderImage from "./../../assets/images/bahubali_dhamane.jpg";
 import { useNavigate } from "react-router-dom";
 import "./AboutUs.scss";

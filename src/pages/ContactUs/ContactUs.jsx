@@ -43,8 +43,8 @@ const ContactUs = () => {
             <img src={Location} alt="Location" />
             <h3>Office Location</h3>
             <p>
-              203 Elecon Chamber, Near Sakinaka Telephone Exchange, Kurla
-              Andheri Road, Andheri, (E) Mumbai – 400 072
+              Neighborhood Shopping Complex, F-7, Ahilya Gokul Patil Rd, Vinu
+              Veena CHS, Sector 4, Nerul, Navi Mumbai, Maharashtra - 400706
             </p>
           </div>
           <div>

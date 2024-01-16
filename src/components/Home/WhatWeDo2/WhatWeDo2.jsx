@@ -71,7 +71,7 @@ const WhatWeDo2 = () => {
 
   return (
     <div className="What_We_Do2">
-      <h2 ref={heading}>WE HANDLE A FULL RANGE OF SERVICES</h2>
+      <h2 ref={heading}>We Handle A Full Range Of Services</h2>
       <hr ref={hr} />
       <div className="Inner_Div" ref={div}>
         <Card heading="Residential Projects" imgPath={ResidentialBuilding} />
