@@ -67,7 +67,7 @@ const WhatWeDo2 = () => {
     headingObserver.observe(heading.current);
     divObserver.observe(div.current);
     hrObserver.observe(hr.current);
-  }, []);
+  });
 
   return (
     <div className="What_We_Do2">

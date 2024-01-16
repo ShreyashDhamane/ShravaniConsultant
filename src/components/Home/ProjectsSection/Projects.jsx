@@ -1,11 +1,11 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import Project1 from "./../../../assets/images/buildings/Picture19.jpg";
 import Project2 from "./../../../assets/images/buildings/Picture14.jpg";
 import Project3 from "./../../../assets/images/buildings/Picture6.jpg";
 import Project4 from "./../../../assets/images/buildings/Picture1.jpg";
 import Project5 from "./../../../assets/images/buildings/Picture24.jpg";
-import "./Projects.scss";
 import { useNavigate } from "react-router-dom";
+import "./Projects.scss";
 
 const Projects = () => {
   const navigate = useNavigate();
@@ -83,11 +83,11 @@ const Projects = () => {
     divObserverOptions
   );
 
-  React.useEffect(() => {
+  useEffect(() => {
     headingObserver.observe(heading.current);
     divObserver.observe(div.current);
     hrObserver.observe(hr.current);
-  }, []);
+  });
 
   return (
     <div className="Projects">

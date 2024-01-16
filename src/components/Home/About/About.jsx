@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import Founder from "./../../../assets/images/bahubali_dhamane.jpg";
 import "./About.scss";
 
@@ -23,9 +23,9 @@ const About = () => {
     divObserverOptions
   );
 
-  React.useEffect(() => {
+  useEffect(() => {
     divObserver.observe(div.current);
-  }, []);
+  });
 
   return (
     <div className="About_Section" ref={div}>

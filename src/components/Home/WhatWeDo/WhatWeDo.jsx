@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import Card from "./Card/Card";
 import { useNavigate } from "react-router-dom";
 import "./WhatWeDo.scss";
@@ -58,11 +58,11 @@ const WhatWeDo = () => {
     divRightObserverOptions
   );
 
-  React.useEffect(() => {
+  useEffect(() => {
     headingObserver.observe(heading.current);
     divLeftObserver.observe(divLeft.current);
     divRightObserver.observe(divRight.current);
-  }, []);
+  });
 
   return (
     <div className="What_We_Do">

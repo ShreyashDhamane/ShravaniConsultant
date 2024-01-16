@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import Card from "./Card/Card";
 import Commitment from "./../../../assets/images/commitment.png";
 import Excellence from "./../../../assets/images/quality.png";
@@ -60,11 +60,11 @@ const Philosophy = () => {
     divObserverOptions
   );
 
-  React.useEffect(() => {
+  useEffect(() => {
     headingObserver.observe(heading.current);
     divObserver.observe(div.current);
     hrObserver.observe(hr.current);
-  }, []);
+  });
 
   return (
     <div className="Philosophy">
