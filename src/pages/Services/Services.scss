@@ -92,3 +92,45 @@
     padding: 5rem 1.5rem;
   }
 }
+
+@media (min-width: $break-point-mobile) and (max-width: $break-point-tab-lg) {
+  .Services {
+    padding: 6rem 2rem 1rem;
+    margin-top: 1rem;
+    h2 {
+      font-size: 3rem;
+    }
+
+    h3 {
+      font-size: 2.75rem;
+      color: #9a3b3b;
+    }
+
+    p {
+      font-size: 2rem;
+      margin: 0.5rem 0;
+      text-align: justify;
+    }
+
+    .Commercial {
+      .Feature_Heading {
+        margin-top: 0rem;
+      }
+
+      .Features_Div {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0rem;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  .Services2 {
+    padding: 2rem;
+    background-color: #faeed1;
+  }
+
+  .Services3 {
+    padding: 2rem;
+  }
+}

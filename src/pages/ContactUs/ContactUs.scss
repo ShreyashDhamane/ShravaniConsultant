@@ -180,3 +180,31 @@
     }
   }
 }
+
+@media (min-width: $break-point-mobile) and (max-width: $break-point-tab-lg) {
+  .Contact_Us_Page {
+    padding: 7.5rem 2rem 2rem;
+
+    .Contact_Inner_Div {
+      gap: 3rem;
+      grid-template-rows: 38vh;
+
+      .Right {
+        p {
+          padding-right: 2rem;
+        }
+
+        .Form {
+          padding: 1rem 0;
+          padding-right: 2rem;
+        }
+      }
+    }
+
+    .Iframe {
+      width: 100%;
+      height: 50rem;
+      border: 0;
+    }
+  }
+}

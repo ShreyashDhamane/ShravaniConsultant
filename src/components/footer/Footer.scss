@@ -163,3 +163,56 @@
     }
   }
 }
+
+@media (min-width: $break-point-mobile) and (max-width: $break-point-tab-lg) {
+  .Footer {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5rem;
+
+    div {
+      h4 {
+        margin-bottom: 0rem;
+      }
+    }
+
+    .Column {
+      gap: 1rem;
+
+      p {
+        font-size: 1.75rem;
+        padding-right: 0rem;
+      }
+
+      a {
+        font-size: 1.75rem;
+        padding-right: 0;
+      }
+    }
+
+    .Column2 {
+      h4 {
+        margin-bottom: 1rem;
+      }
+
+      a {
+        font-size: 2rem;
+        margin-bottom: 0.25rem;
+      }
+    }
+
+    .Column3 {
+      padding-top: 0rem;
+
+      p {
+        font-size: 1.75rem;
+        margin-bottom: 0rem;
+        color: #ded0b6;
+      }
+
+      a {
+        font-size: 2rem;
+        margin-bottom: 0rem;
+      }
+    }
+  }
+}

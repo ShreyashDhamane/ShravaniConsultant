@@ -2,7 +2,7 @@
 
 .What_We_Do {
   background-color: #faeed1;
-  height: 75vh;
+  height: fit-content;
   width: 100%;
   padding: 10rem;
   display: flex;
@@ -27,14 +27,14 @@
   }
 }
 
-.What_We_Do .Inner_Div {
+.What_We_Do .Inner_Div_WWD {
   width: 100%;
   display: flex;
   flex-direction: row;
   padding-top: 3rem;
 }
 
-.What_We_Do .Inner_Div .ID_Left {
+.What_We_Do .Inner_Div_WWD .ID_Left {
   flex: 1;
   padding-right: 5rem;
   opacity: 0;
@@ -47,25 +47,30 @@
   }
 }
 
-.What_We_Do .Inner_Div .ID_Left p {
+.What_We_Do .Inner_Div_WWD .ID_Left p {
   font-size: 2rem;
   color: #607274;
 }
 
-.What_We_Do .Inner_Div .ID_Left button {
+.What_We_Do .Inner_Div_WWD .ID_Left button {
   width: 35%;
+  padding: 1rem;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 2rem;
   background-color: #607274;
   color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.What_We_Do .Inner_Div .ID_Left button:hover {
+.What_We_Do .Inner_Div_WWD .ID_Left button:hover {
   background-color: white;
   color: #607274;
 }
 
-.What_We_Do .Inner_Div .ID_Right {
-  flex: 1.7;
+.What_We_Do .Inner_Div_WWD .ID_Right {
+  flex: 1.3;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 12rem 12rem;
@@ -93,25 +98,69 @@
     margin-bottom: 0rem;
   }
 
-  .What_We_Do .Inner_Div {
+  .What_We_Do .Inner_Div_WWD {
     flex-direction: column-reverse;
     margin: 0;
   }
 
-  .What_We_Do .Inner_Div .ID_Left {
+  .What_We_Do .Inner_Div_WWD .ID_Left {
     flex: 1;
     padding: 0rem;
   }
 
-  .What_We_Do .Inner_Div .ID_Left p {
+  .What_We_Do .Inner_Div_WWD .ID_Left p {
     margin-top: 2rem;
   }
 
-  .What_We_Do .Inner_Div .ID_Left button {
+  .What_We_Do .Inner_Div_WWD .ID_Left button {
     width: 50%;
   }
 
-  .What_We_Do .Inner_Div .ID_Right {
+  .What_We_Do .Inner_Div_WWD .ID_Right {
+    flex: 1;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+@media (min-width: $break-point-mobile) and (max-width: $break-point-tab-lg) {
+  .What_We_Do {
+    background-color: #faeed1;
+    height: fit-content;
+    padding: 2.5rem;
+    height: fit-content;
+  }
+
+  .What_We_Do h2 {
+    font-size: 3rem;
+    margin-bottom: 0rem;
+    text-align: center;
+  }
+
+  .What_We_Do .Inner_Div_WWD {
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+
+  .What_We_Do .Inner_Div_WWD .ID_Left {
+    flex: 1;
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .What_We_Do .Inner_Div_WWD .ID_Left p {
+    margin-top: 4rem;
+    text-align: justify;
+  }
+
+  .What_We_Do .Inner_Div_WWD .ID_Left button {
+    padding: 1rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+
+  .What_We_Do .Inner_Div_WWD .ID_Right {
     flex: 1;
     grid-template-rows: 1fr 1fr;
   }

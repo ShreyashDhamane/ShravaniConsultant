@@ -80,6 +80,16 @@
 @media (min-width: $break-point-tab-sm) and (max-width: 806px) {
   .List_Item {
     padding: 0px 4px;
+
+    .Link {
+      color: black;
+      font-size: 2rem;
+    }
+    .active {
+      color: black;
+      border-bottom: black solid 2px;
+      // color: #607274;
+    }
   }
 }
 

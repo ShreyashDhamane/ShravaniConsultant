@@ -69,7 +69,7 @@ const WhatWeDo = () => {
       <h2 ref={heading}>
         Leading Civil & Structural Engineering Company in India
       </h2>
-      <div className="Inner_Div">
+      <div className="Inner_Div_WWD">
         <div className="ID_Left" ref={divLeft}>
           <p>
             Shravani Consultant is one of the leading providers of structural

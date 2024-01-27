@@ -80,3 +80,30 @@
     gap: 0rem;
   }
 }
+
+@media (min-width: $break-point-mobile) and (max-width: $break-point-tab-lg) {
+  .What_We_Do2 {
+    padding: 0rem;
+    margin: 0;
+    height: 60rem;
+
+    h2 {
+      margin-top: 2rem;
+      font-size: 3rem;
+      padding: 0rem 2rem;
+      text-align: center;
+    }
+
+    hr {
+      width: 20%;
+    }
+  }
+
+  .What_We_Do2 .Inner_Div {
+    margin-top: 3.5rem;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, 20rem);
+    gap: 0rem;
+  }
+}

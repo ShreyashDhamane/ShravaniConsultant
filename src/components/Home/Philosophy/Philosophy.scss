@@ -1,7 +1,7 @@
 @import "/public/assets/css/variables";
 
 .Philosophy {
-  height: 100vh;
+  // height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,7 +53,7 @@
   }
 }
 
-@media (max-width: $break-point-mobile) {
+@media (max-width: $break-point-tab-lg) {
   .Philosophy {
     height: fit-content;
     padding: 0;
