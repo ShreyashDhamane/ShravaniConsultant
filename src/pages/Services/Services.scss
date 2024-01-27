@@ -1,3 +1,5 @@
+@import "/public/assets/css/variables";
+
 .Services {
   background-image: url("./../../assets/images/white-brick-wall.png");
   padding: 15rem 20rem 0;
@@ -47,4 +49,46 @@
 
 .Services3 {
   padding: 10rem 20rem 0;
+}
+
+@media (max-width: $break-point-mobile) {
+  .Services {
+    padding: 5rem 1.5rem;
+    margin-top: 1rem;
+    h2 {
+      font-size: 3rem;
+    }
+
+    h3 {
+      font-size: 2.75rem;
+      color: #9a3b3b;
+    }
+
+    p {
+      font-size: 2rem;
+      margin: 0.5rem 0;
+      text-align: justify;
+    }
+
+    .Commercial {
+      .Feature_Heading {
+        margin-top: 0rem;
+      }
+
+      .Features_Div {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0rem;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  .Services2 {
+    padding: 5rem 1.5rem;
+    background-color: #faeed1;
+  }
+
+  .Services3 {
+    padding: 5rem 1.5rem;
+  }
 }

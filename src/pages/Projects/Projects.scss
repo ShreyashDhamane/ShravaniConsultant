@@ -113,3 +113,52 @@
     }
   }
 }
+
+@media (max-width: $break-point-mobile) {
+  .Projects_Page {
+    padding: 7rem 1.5rem;
+
+    .Gallery_Container {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: 100px;
+
+      .wide {
+        grid-column: span 1;
+      }
+
+      .tall {
+        grid-row: span 1;
+      }
+
+      .tall3 {
+        grid-row: span 3;
+      }
+
+      .tall4 {
+        grid-row: span 3;
+      }
+
+      .big {
+        grid-column: span 2;
+        grid-row: span 2;
+      }
+
+      .big3 {
+        grid-column: span 2;
+        grid-row: span 3;
+      }
+
+      .wide2tall3 {
+        grid-column: span 2;
+        grid-row: span 3;
+      }
+
+      .wide5tall2 {
+        grid-column: span 3;
+        grid-row: span 3;
+      }
+    }
+  }
+}

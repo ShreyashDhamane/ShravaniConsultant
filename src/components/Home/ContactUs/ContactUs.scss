@@ -1,3 +1,5 @@
+@import "/public/assets/css/variables";
+
 .Contact_Us {
   padding: 10rem;
   background-image: url("./../../../assets/images/building2.jpg");
@@ -74,6 +76,31 @@
     textarea:focus {
       border: 2px solid black; /* Change the color and width as needed */
       outline: none; /* Remove the default browser outline */
+    }
+  }
+}
+
+@media (max-width: $break-point-mobile) {
+  .Contact_Us {
+    padding: 0rem;
+    padding-bottom: 3rem;
+
+    h3 {
+      font-size: 3.5rem;
+      margin-top: 2rem;
+    }
+
+    hr {
+      width: 20%;
+      margin-bottom: 2.5rem;
+    }
+
+    .Form {
+      padding: 0 5rem;
+
+      button {
+        color: $neutral-600;
+      }
     }
   }
 }

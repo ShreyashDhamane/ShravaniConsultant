@@ -7,7 +7,13 @@ const ListItem = (props) => {
 
   return (
     <li className={location.pathname === "/" ? "List_Item" : "List_Item2"}>
-      <NavLink className="Link" to={props.link}>
+      <NavLink
+        className="Link"
+        to={props.link}
+        onClick={() => {
+          props.onClick();
+        }}
+      >
         {props.name}
       </NavLink>
     </li>

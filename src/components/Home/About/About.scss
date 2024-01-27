@@ -1,3 +1,5 @@
+@import "/public/assets/css/variables";
+
 .About_Section {
   padding: 10rem;
   display: flex;
@@ -44,5 +46,30 @@
     padding: 0 25rem;
     font-size: 1.75rem;
     text-align: center;
+  }
+}
+
+@media (max-width: $break-point-mobile) {
+  .About_Section {
+    padding: 0rem;
+
+    img {
+      width: 15rem;
+      height: 15rem;
+      margin-top: 2rem;
+    }
+
+    hr {
+      width: 20%;
+      margin-top: 0rem;
+      margin-bottom: 0rem;
+    }
+
+    p {
+      padding: 2rem;
+      font-size: 2rem;
+      color: $neutral-300;
+      padding-bottom: 2rem;
+    }
   }
 }

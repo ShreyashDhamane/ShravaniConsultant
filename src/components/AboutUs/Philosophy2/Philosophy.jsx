@@ -1,9 +1,9 @@
 import React from "react";
-import "./Philosophy.scss";
 import Card from "./Card/Card";
 import Commitment from "./../../../assets/images/commitment.png";
 import Excellence from "./../../../assets/images/quality.png";
 import Innovation from "./../../../assets/images/bulb.png";
+import "./Philosophy.scss";
 
 const Philosophy = () => {
   return (

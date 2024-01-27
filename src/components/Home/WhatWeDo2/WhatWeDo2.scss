@@ -1,3 +1,5 @@
+@import "/public/assets/css/variables";
+
 .What_We_Do2 {
   height: 85vh;
   padding: 10rem;
@@ -48,5 +50,33 @@
   &.div-animation {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media (max-width: $break-point-mobile) {
+  .What_We_Do2 {
+    height: 100%;
+    padding: 0rem;
+    margin: 0;
+    height: 75rem;
+
+    h2 {
+      margin-top: 2rem;
+      font-size: 3rem;
+      padding: 0rem 2rem;
+      text-align: center;
+    }
+
+    hr {
+      width: 20%;
+    }
+  }
+
+  .What_We_Do2 .Inner_Div {
+    margin-top: 3.5rem;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 20rem);
+    gap: 0rem;
   }
 }

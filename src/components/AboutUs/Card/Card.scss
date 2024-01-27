@@ -1,3 +1,5 @@
+@import "/public/assets/css/variables";
+
 .Card_About_Us {
   display: flex;
   flex-direction: column;
@@ -18,5 +20,26 @@
     font-size: 2rem;
     text-align: center;
     color: #607274;
+  }
+}
+
+@media (max-width: $break-point-mobile) {
+  .Card_About_Us {
+    img {
+      width: 15rem;
+      height: 15rem;
+    }
+
+    h3 {
+      margin-top: 1rem;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    h4 {
+      font-size: 1.75rem;
+      text-align: center;
+      color: #607274;
+    }
   }
 }

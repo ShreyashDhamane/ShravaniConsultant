@@ -79,3 +79,40 @@
     transform: translateX(0);
   }
 }
+
+@media (max-width: $break-point-mobile) {
+  .What_We_Do {
+    background-color: #faeed1;
+    height: fit-content;
+    padding: 2.5rem;
+    height: fit-content;
+  }
+
+  .What_We_Do h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0rem;
+  }
+
+  .What_We_Do .Inner_Div {
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+
+  .What_We_Do .Inner_Div .ID_Left {
+    flex: 1;
+    padding: 0rem;
+  }
+
+  .What_We_Do .Inner_Div .ID_Left p {
+    margin-top: 2rem;
+  }
+
+  .What_We_Do .Inner_Div .ID_Left button {
+    width: 50%;
+  }
+
+  .What_We_Do .Inner_Div .ID_Right {
+    flex: 1;
+    grid-template-rows: 1fr 1fr;
+  }
+}

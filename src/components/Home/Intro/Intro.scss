@@ -63,3 +63,18 @@
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
+
+@media (max-width: $break-point-mobile) {
+  .Intro {
+    padding-left: 5rem;
+  }
+
+  .Inner_Div h1 {
+    font-size: 4rem;
+  }
+  .Inner_Div button {
+    width: 75%;
+    font-weight: 600;
+    background-color: $neutral-100;
+  }
+}

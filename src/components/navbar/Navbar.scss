@@ -80,24 +80,54 @@
     display: flex;
   }
 
-  .Navbar {
+  .Hamburger_Menu span {
+    height: 0.3rem;
+    width: 100%;
+    background-color: $neutral-700;
+    border-radius: 0.2rem;
+  }
+
+  .Navbar2 {
+    .Hamburger_Menu span {
+      background-color: $neutral-600;
+    }
+  }
+
+  .Navbar,
+  .Navbar2 {
     padding: 1.5rem;
     flex-direction: column;
     align-items: start;
   }
 
-  .Navbar ul {
+  .Navbar ul,
+  .Navbar2 ul {
     display: none;
     flex-direction: column;
     width: 100%;
     margin-bottom: 0.25rem;
   }
 
-  .Navbar ul.open {
-    display: flex;
+  .Navbar ul li,
+  .Navbar2 ul li {
+    width: 100%;
+    text-align: center;
   }
 
-  .Navbar ul li {
+  .Navbar ul.open,
+  .Navbar2 ul.open {
+    display: flex;
+    background-color: $neutral-100;
+    border-radius: 1rem;
+    z-index: 1;
+
+    li {
+      padding: 1rem 0;
+    }
+  }
+
+  .Navbar ul li,
+  .Navbar2 ul li {
     width: 100%;
     text-align: center;
   }

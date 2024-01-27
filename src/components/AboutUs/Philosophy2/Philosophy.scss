@@ -1,3 +1,5 @@
+@import "/public/assets/css/variables";
+
 .Philosophy2 {
   display: flex;
   flex-direction: column;
@@ -21,5 +23,33 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 3rem;
     width: 100%;
+  }
+}
+
+@media (max-width: $break-point-mobile) {
+  .Philosophy2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+      font-size: 4rem;
+      color: black;
+      margin-bottom: 2rem;
+    }
+
+    hr {
+      width: 20%;
+      margin-top: 1rem;
+      margin-bottom: 5rem;
+      border: 0.1rem solid #607274;
+    }
+
+    .Inner_div {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 2rem;
+      width: 100%;
+    }
   }
 }
