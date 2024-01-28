@@ -7,6 +7,7 @@ const Card = (props) => {
       <img src={props.src} alt={props.alt} />
       <h3>{props.name}</h3>
       <h4>{props.role}</h4>
+      <h5>{props.degree}</h5>
     </div>
   );
 };

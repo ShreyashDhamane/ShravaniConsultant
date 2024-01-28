@@ -77,9 +77,9 @@ const WhatWeDo2 = () => {
         <Card heading="Residential Projects" imgPath={ResidentialBuilding} />
         <Card heading="Commercial Projects" imgPath={CommercialBuilding} />
         <Card heading="Steel Structure" imgPath={SteelStructure} />
-        <Card heading="Analysis & Design" imgPath={Architect} />
-        <Card heading="Retrofitting" imgPath={Retrofitting} />
-        <Card heading="Consultancy" imgPath={Consultancy} />
+        <Card heading="Industrial Projects" imgPath={Retrofitting} />
+        <Card heading="Infrastructure Projects" imgPath={Architect} />
+        <Card heading="Specialized Projects" imgPath={Consultancy} />
       </div>
     </div>
   );

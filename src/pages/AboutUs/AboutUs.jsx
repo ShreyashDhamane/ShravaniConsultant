@@ -1,6 +1,12 @@
 import React from "react";
 import CompanyImage from "./../../assets/images/company_logo.png";
-import FounderImage from "./../../assets/images/bahubali_dhamane.jpg";
+import BahubaliImage from "./../../assets/images/bahubali_dhamane.jpg";
+import ShravaniDhamaneImage from "./../../assets/images/Shravani_Dhamane.jfif";
+import ShashankDhamaneImage from "./../../assets/images/Shashank_Dhamane.jfif";
+import SantoshDhamaneImage from "./../../assets/images/santosh_dhamane.jpg";
+import MangeshImage from "./../../assets/images/mangesh.jpeg";
+import AbhijeetHiramethImage from "./../../assets/images/Abhijeet_Hiremath.jfif";
+import FounderImage from "./../../assets/images/userUndefined.jfif";
 import { useNavigate } from "react-router-dom";
 import "./AboutUs.scss";
 import Card from "../../components/AboutUs/Card/Card";
@@ -20,26 +26,36 @@ const AboutUs = () => {
         <div className="UD_Left">
           <h1>A LEGACY OF EXCELLENCE</h1>
           <p>
-            Over the past several years, we have been fortunate enough to
-            establish ourselves as one of fastest growing engineering firms in
-            the country! Our firm is a family owned business that is raising the
-            standard of service that you should expect from your engineer.
+            At Shravani Consultant, we specialize in providing comprehensive
+            structural consulting services for a diverse range of projects. From
+            designing cutting-edge skyscrapers to ensuring the stability of
+            historical landmarks, our team is equipped to tackle challenges of
+            any scale. Bahubali Dhamane and the consultancy have successfully
+            completed projects spanning various industries, earning a reputation
+            for delivering high-quality, sustainable solutions.
           </p>
           <p>
-            We specialize in providing structural and MEP engineering to a
-            variety of clients, including architects, contractors, developers,
-            owners, and more. Our goal is to be a valuable resource to every
-            customer, exceeding his or her engineering needs on budget and ahead
-            of schedule.
+            Our approach is rooted in a deep appreciation for the unique
+            requirements of each project. Bahubali understands that successful
+            structural engineering goes beyond meeting basic safety standards;
+            it's about creating structures that stand the test of time while
+            seamlessly integrating with their surroundings. This commitment to
+            excellence is evident in the many accolades and satisfied clients
+            that Shravani Consultant has garnered over the years.{" "}
           </p>
           <p>
-            Our clients choose Shravani Consultant because we deliver
-            outstanding service, rapid turnaround times, and competitive pricing
-            on every project.
+            As you navigate through our website, you'll discover the diverse
+            portfolio of projects we've had the privilege to be a part of. From
+            conceptualization to construction, Bahubali Dhamane and the team at
+            Shravani Consultant are dedicated to ensuring that every project
+            receives the attention it deserves.
           </p>
           <p>
-            At Shravani Consultant, we go beyond structures; we cultivate
-            enduring relationships by consistently surpassing expectations.
+            Whether you're an architect seeking a reliable structural consultant
+            or a developer looking to bring your vision to life, Shravani
+            Consultant is here to collaborate with you. Our entire team look
+            forward to contributing their expertise to your next project and
+            helping turn your architectural dreams into reality.
           </p>
           <button onClick={handleClick}>Contact Us</button>
         </div>
@@ -60,30 +76,27 @@ const AboutUs = () => {
         </p>
         <div className="LD_Inner_Div">
           <img
-            src={FounderImage}
+            src={BahubaliImage}
             alt="bahubali Dhamane, Founder of Shravani Consultant"
           />
           <div>
             <h3 className="H3">Bahubali Dhamane, P.E.</h3>
             <p>
-              Bahubali Dhamane is the President and Principal Professional
-              Engineer at Shravani Consultant. With a Bachelor's degree in Civil
-              Engineering from Walchand College of Engineering, Bahubali
-              Dhamane's extensive expertise to his role as the Engineer of
-              Record for the Firm. He oversees all engineering operations,
-              ensuring compliance with building codes, standards, and local
-              guidelines.
+              Welcome to the virtual home of Bahubali Dhamane, a seasoned
+              structural engineer and the visionary founder of Shravani
+              Consultant. With an unwavering passion for creating robust,
+              innovative solutions, he brings a wealth of experience and
+              expertise to the world of structural consulting.
             </p>
             <p>
-              Bahubali's diverse portfolio includes site-specific engineering
-              for aluminum structures, steel, metal buildings, swimming pools,
-              and composite wood and concrete structures. He reviews engineering
-              plans to guarantee adherence to the latest building codes.
-              Collaborating closely with contractors, architects, reviewers, and
-              homeowners, Bahubali ensures optimal design and functionality
-              while meeting code requirements.
+              Mr. Bahubali has spent 30+ years honing his skills in the field of
+              structural engineering, developing a keen understanding of the
+              intricate balance between form and function. As the driving force
+              behind Shravani Consultant, he has cultivated a team of dedicated
+              professionals who share the same commitment to excellence and
+              innovation.
             </p>
-            <p>Bahubali's License Number is P.E. ######. </p>
+            {/* <p>Bahubali's License Number is P.E. ######. </p> */}
           </div>
         </div>
 
@@ -91,50 +104,76 @@ const AboutUs = () => {
           <Card
             src={FounderImage}
             alt="Founder"
-            name="Shravani Dhamane"
-            role="Civil Engineer"
+            name="Manoj Chougule"
+            role="Sr. Design Engineer"
+            degree="M.E. Civil"
           />
           <Card
             src={FounderImage}
             alt="Founder"
+            name="Akshay Mahajan"
+            role="Design Engineer"
+            degree="B.E. Civil"
+          />
+          <Card
+            src={ShravaniDhamaneImage}
+            alt="Founder"
             name="Shravani Dhamane"
+            role="Design Engineer"
+            degree="M.Tech, IIT Guwahati"
+          />
+          <Card
+            src={ShashankDhamaneImage}
+            alt="Founder"
+            name="Shashank D."
             role="Civil Engineer"
+            degree="Nikmar Civil"
+          />
+          <Card
+            src={SantoshDhamaneImage}
+            alt="Founder"
+            name="Santosh D."
+            role="Sr. Draftsman"
+            degree="Nikmar Civil"
+          />
+          <Card
+            src={MangeshImage}
+            alt="Founder"
+            name="Mangesh Gulhane"
+            role="Sr. Structural Engineer"
+            degree="M.E. Civil"
           />
           <Card
             src={FounderImage}
             alt="Founder"
-            name="Shravani Dhamane"
+            name="Vijay Pawar"
             role="Civil Engineer"
+            degree="B.E. Civil"
+          />
+          <Card
+            src={AbhijeetHiramethImage}
+            alt="Founder"
+            name="Abhijeet Hiremath"
+            role="Planning and Schedulling Engineer"
           />
           <Card
             src={FounderImage}
             alt="Founder"
-            name="Shravani Dhamane"
-            role="Civil Engineer"
+            name="Bharat Panchal"
+            role="Sr. Draftsman"
           />
           <Card
             src={FounderImage}
             alt="Founder"
-            name="Shravani Dhamane"
-            role="Civil Engineer"
+            name="Haresh Bhandare"
+            role="Sr. Draftsman"
           />
+          <Card src={FounderImage} alt="Founder" name="Saad" role="Draftsman" />
           <Card
             src={FounderImage}
             alt="Founder"
-            name="Shravani Dhamane"
-            role="Civil Engineer"
-          />
-          <Card
-            src={FounderImage}
-            alt="Founder"
-            name="Shravani Dhamane"
-            role="Civil Engineer"
-          />
-          <Card
-            src={FounderImage}
-            alt="Founder"
-            name="Shravani Dhamane"
-            role="Civil Engineer"
+            name="Abhishek"
+            role="Draftsman"
           />
         </div>
       </div>
