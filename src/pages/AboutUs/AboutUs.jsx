@@ -96,7 +96,14 @@ const AboutUs = () => {
               professionals who share the same commitment to excellence and
               innovation.
             </p>
-            {/* <p>Bahubali's License Number is P.E. ######. </p> */}
+            <p>
+              What sets him apart is not just his technical prowess but also his
+              ability to envision and implement groundbreaking solutions. From
+              incorporating sustainable materials into designs to optimizing
+              structural systems for maximum efficiency, he has consistently
+              pushed the envelope, earning a reputation as an industry
+              trailblazer.
+            </p>
           </div>
         </div>
 
