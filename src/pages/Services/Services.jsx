@@ -11,8 +11,8 @@ const Services = () => {
           <h2>Commercial</h2>
           <h3 className="Feature_Heading">Structural Engineering</h3>
           <p>
-            Shravani Consultant delivers first class structural engineering
-            services on projects of all sizes.
+            We deliver first class structural engineering services on projects
+            of all sizes.
           </p>
           <div className="Features_Div">
             <ListItem
@@ -43,8 +43,8 @@ const Services = () => {
           </div>
           <h3 className="Feature_Heading">Brand Partner Services (BPS)</h3>
           <p>
-            Shravani Consultant delivers first class structural engineering
-            services on projects of all sizes.
+            We also provide first-class brand partner services across various
+            domains.
           </p>
           <div className="Features_Div">
             <ListItem
