@@ -18,32 +18,30 @@ const Services = () => {
             <ListItem
               src={TickMark}
               alt={"tick mark"}
-              heading="Structural Design"
+              heading="Structural Analysis & Design"
             />
             <ListItem
               src={TickMark}
               alt={"tick mark"}
-              heading="Structural Design"
+              heading="Structural Inspection & Assessment"
             />
             <ListItem
               src={TickMark}
               alt={"tick mark"}
-              heading="Structural Design"
+              heading="Value Engineering"
             />
             <ListItem
               src={TickMark}
               alt={"tick mark"}
-              heading="Structural Design"
+              heading="Peer Review & Third Party Verification"
             />
             <ListItem
               src={TickMark}
               alt={"tick mark"}
-              heading="Structural Design"
+              heading="Project Management Consultancy"
             />
           </div>
-          <h3 className="Feature_Heading">
-            Mechanical, Electrical And Plumbing (MEP)
-          </h3>
+          <h3 className="Feature_Heading">Brand Partner Services (BPS)</h3>
           <p>
             Shravani Consultant delivers first class structural engineering
             services on projects of all sizes.
@@ -52,30 +50,40 @@ const Services = () => {
             <ListItem
               src={TickMark}
               alt={"tick mark"}
-              heading="Structural Design"
+              heading="Pre-Stressed Concrete Design"
             />
             <ListItem
               src={TickMark}
               alt={"tick mark"}
-              heading="Structural Design"
+              heading="Deep Foundation: Pile Foundation"
             />
             <ListItem
               src={TickMark}
               alt={"tick mark"}
-              heading="Structural Design"
+              heading="Geotech Consulting: Soil Investigation Report"
             />
             <ListItem
               src={TickMark}
               alt={"tick mark"}
-              heading="Structural Design"
+              heading="Concrete Mix Design"
             />
             <ListItem
               src={TickMark}
               alt={"tick mark"}
-              heading="Structural Design"
+              heading="Construction Material Testing & Inspection"
+            />
+            <ListItem
+              src={TickMark}
+              alt={"tick mark"}
+              heading="Construction Material Testing & Inspection"
+            />
+            <ListItem
+              src={TickMark}
+              alt={"tick mark"}
+              heading="Retrofitting & Rehabilitation of Structures"
             />
           </div>
-          <p className="Type_Of_Work">
+          {/* <p className="Type_Of_Work">
             The types of commercial projects we work on include:
           </p>
           <div className="Features_Div">
@@ -139,10 +147,10 @@ const Services = () => {
               alt={"tick mark"}
               heading="Structural Design"
             />
-          </div>
+          </div> */}
         </div>
       </div>{" "}
-      <div className="Services Services2">
+      {/* <div className="Services Services2">
         <div className="Commercial">
           <h2>Residential</h2>
           <h3 className="Feature_Heading">Structural Engineering</h3>
@@ -319,7 +327,7 @@ const Services = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

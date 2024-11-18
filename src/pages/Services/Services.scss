@@ -34,10 +34,10 @@
     }
 
     .Features_Div {
-      display: grid;
+      display: flex-column;
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 1rem;
-      margin-bottom: 5rem;
+      margin-bottom: 1rem;
     }
   }
 }

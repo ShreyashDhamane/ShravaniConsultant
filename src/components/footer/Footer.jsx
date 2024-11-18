@@ -27,7 +27,7 @@ const Footer = () => {
         <a href="/contact-us">Contact Us</a>
       </div>
       <div className="Column3">
-        <p>© 2023 Shravani Consultant.</p>
+        <p>© 2024 Shravani Consultant.</p>
         <p>All Rights Reserved.</p>
         <a href="https://www.termsfeed.com/live/5d10959a-770b-448b-84e3-578c4058b694">
           Privacy Policy
